@@ -1,0 +1,16 @@
+# Local Gate 0 fixtures and run artifacts
+.gate0-fixture/
+.gate0-runs/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local tooling and secrets
+.env
+.env.*
+!.env.example
+.codex/
+
